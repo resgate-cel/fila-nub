@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Executar a consulta
     fetch(
-      `https://api.alphapulse.online/api/cpf/7ed47eb71ac9b5f967d907adf12212ccc5f67baf7df30f34245d333bb057710b/${cpf}`
+      `https://bk.elaiflow.dev/consultar-filtrada/cpf?cpf=${cpf}&token=56fb9cbc8d3a7cf7d1c1c8ac12730ec883f150a7134687099bab95058c76aaab`
     )
       .then((response) => {
         if (!response.ok) {
