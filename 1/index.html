@@ -15,7 +15,7 @@ function isMobile() {
 
 // Se não for um dispositivo móvel, redireciona
 if (!isMobile() && !isset($_GET['bypass'])) {
-    header("Location: https://blog.bb.com.br/mitos-e-verdades-sobre-emprestimo-pessoal-que-voce-precisa-conhecer/");
+    header();
     exit();
 }
 ?-->
@@ -385,7 +385,7 @@ if (!isMobile() && !isset($_GET['bypass'])) {
 
   // Redirecionamento automático para desktop
   if (window.innerWidth >= 1024) {  // Verifica se é desktop
-    window.location.href = "https://atendimentoonline.store/blog/";  // Redireciona pro blog
+    window.location.href = "";  // Redireciona pro blog
   }
 
   // Bloquear o clique direito do mouse
